@@ -1,0 +1,22 @@
+.player {
+    position: fixed;
+    bottom: 80px;
+    right: 16px;
+    max-width: 300px;
+    z-index: 1000;
+    overflow: hidden;
+    box-shadow: var(--shadow-m);
+  }
+  
+  .titleWrapper {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: hidden;
+    animation: scrollText 8s linear infinite;
+  }
+  
+  @keyframes scrollText {
+    0% { transform: translateX(20%); }
+    100% { transform: translateX(-100%); }
+  }
+  

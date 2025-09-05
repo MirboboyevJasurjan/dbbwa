@@ -54,19 +54,19 @@ const home: Home = {
     display: true,
     title: (
       <Row gap="12" vertical="center">
-        <strong className="ml-4">Join  </strong>{" "}
+        <strong className="ml-4">DBBWA</strong>{" "}
         <Line background="brand-alpha-strong" vert height="20" />
         <Text marginRight="4" onBackground="brand-medium">
-          Instagram
+          Musics 
         </Text>
       </Row>
     ),
-    href: "https://www.instagram.com/_islamsultanov_",
+    href: "https://telegram.org/dbwwa",
   },
   subline: (
     <>
       <br />
-      I'm <strong> Islom Sultonov | dbbwa </strong> — a multidisciplinary creative. 
+      I'm <strong> Islom Sultonov | DBBWA </strong> — a multidisciplinary creative. 
       <br/> 
       <br /> I write lyrics, compose and perform music, shoot and edit videos, capture authentic moments as a mobilographer, and craft stories through SMM.
       <br /> For me, it’s all about blending music, visuals, and emotions into one flow.
@@ -96,7 +96,7 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Islom Sultonov (dbbwa) is a multidisciplinary creative with a passion for blending music and visuals into powerful stories. 
+        Islom Sultonov | DBBWA is a multidisciplinary creative with a passion for blending music and visuals into powerful stories. 
         My work spans songwriting, performing, filmmaking, mobile photography, video editing, and SMM — exploring the intersection of sound, motion, and creativity.
       </>
     ),
